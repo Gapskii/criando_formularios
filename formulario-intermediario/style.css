@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #4E4958;
+}
+
+body::before {
+  position: absolute;
+  top: 0;
+  content: '';
+  display: block;
+  height: 436px;
+  width: 100%;
+  background-color: #535971;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+h1, legend, h2, button {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+}
+
+header {
+  margin-top: 140px;
+  width: 420px;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 18px 0 52px 0;
+}
+
+form {
+  background-color: #FFFFFF;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+legend {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+}
+
+span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #4E4958;
+  padding-left: 8px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-2 > .col-2 {
+  width: 100%;
+}
+
+h2 {
+font-size: 20px;
+line-height: 34px;
+color: #535971;
+}
+
+.button-wrapper {
+  background-color: #535971;
+  padding: 52px 71px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 345px;
+}
+
+button {
+  width: 608px;
+  padding: 15px 40px;
+  border-radius: 20px;
+  border: 0;
+  color: #ffffff;
+  background-color: #FF5374;
+
+  font-size: 20px;
+  line-height: 26px;
+}
