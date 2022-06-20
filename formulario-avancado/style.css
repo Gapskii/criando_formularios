@@ -133,12 +133,23 @@ span {
   color: #C1BCCC;
 }
 
-input, select {
+input, select, textarea {
   background: #FAFAFC;
   height: 56px;
   border: 1px solid #E6E6F0;
   border-radius: 8px;
   padding: 8px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #4E4958;
+  padding-left: 8px;
+}
+
+textarea {
+  min-height: 166px;
+  resize: none;
 }
 
 select {
@@ -154,15 +165,6 @@ select {
   display: flex;
   flex-direction: column;
   gap: 32px;
-}
-
-textarea {
-  background: #FAFAFC;
-  min-height: 166px;
-  resize: none;
-  border: 1px solid #E6E6F0;
-  border-radius: 8px;
-  padding: 8px;
 }
 
 .checkbox-wrapper {
